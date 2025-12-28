@@ -1,4 +1,5 @@
 import React, { memo } from "react";
+import image from '../assets/image.png';
 
 const FleetCard = ({
   id,
@@ -25,7 +26,7 @@ const FleetCard = ({
 
   return (
     <div>
-      <img src="https://via.placeholder.com/150" />
+      <img src={image}alt="img" />
       <p>{vehicleRegNo}</p>
       <p>{category}</p>
       <p>{driverName}</p>
